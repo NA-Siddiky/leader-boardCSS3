@@ -20,7 +20,7 @@ main{
 .blogs{
     grid-template-columns: repeat(2, 1fr);
 }
-.player, .blog, .course{
+.player, .blog {
     display: flex;
     align-items: center;
 }
@@ -34,6 +34,7 @@ main{
 }
 .course img{
     width: 200px;
+    height: 150px;
 }
 .course-info{
     display: flex;
